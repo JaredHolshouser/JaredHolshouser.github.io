@@ -1,0 +1,234 @@
+/* Settings for the built in environments */
+
+html {
+  height: 100%;
+}
+/* This sets the background image that the other objects float over */
+body {
+  background-image: url("Random Green Coloring.png");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  height: 100%;
+}
+h1{
+  font-family: "Verdana";
+  margin-left:2%;
+  width:90%;
+}
+h2{
+  font-family: "Verdana";
+  margin-left:4%;
+  width:90%;
+}
+h3{
+  font-family: "Verdana";
+  margin-left:6%;
+  width:90%;
+}
+p{
+  font-family: "Verdana";
+  margin-left: 8%;
+  width: 90%;
+}
+ul{
+  font-family: "Verdana";
+  margin-left:8%;
+  width:90%;
+}
+li{
+  
+}
+
+/*Fancy Research Menu  Top layer*/
+nav {
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+#menu-item{
+margin-bottom:0;background-color:#d8d8d8;width:100%;  
+}
+
+/*Menu Header Styles*/
+.menu-item h4 {
+    background-color: #096A37;
+    padding: .5% 0 .5% 0;
+}
+
+.menu-item h4:hover {  
+    background-color: #096A5B;
+    padding: .5% 0 .5% 0;
+}
+
+.menu-item h4 a {
+    font-family: "Verdana";
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    color: white;
+    /*background-color: #096A37;*/
+    text-align: center;
+    padding: .5% 0 .5% 0;
+    text-decoration: none;
+    text-transform: uppercase
+}
+
+/*ul Styles*/
+.menu-item ul {
+  background: #d8d8d8;
+  height: 0px;
+  list-style-type: none;
+  overflow: hidden;
+  padding: 0px;
+  
+  /*Animation*/
+  -webkit-transition: height 1s ease;
+     -moz-transition: height 1s ease;
+       -o-transition: height 1s ease;
+      -ms-transition: height 1s ease;
+          transition: height 1s ease;
+}
+
+.menu-item:hover ul {
+  height: 100%;
+}
+
+ 
+/*li Styles*/
+.menu-item li {
+  padding: 0px;
+}
+
+
+/*.menu-item li:hover {
+  background: #eee;
+}*/
+
+/*Fancy Research Menu  Layer 2*/
+#menu-item2{
+margin-bottom:0;background-color:#d8d8d8;width:100%;  
+}
+
+/*Menu Header Styles*/
+.menu-item2 h4.two {
+    background-color: #096A37;
+    padding: .5% 0 .5% 0;
+}
+
+.menu-item2 h4.two:hover {  
+    background-color: #096A5B;
+    padding: .5% 0 .5% 0;
+}
+
+.menu-item2 h4.two a {
+    font-family: "Verdana";
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    color: white;
+    /*background-color: #096A37;*/
+    text-align: center;
+    padding: .5% 0 .5% 0;
+    text-decoration: none;
+    text-transform: uppercase
+}
+
+/*ul Styles*/
+.menu-item2 ul.two {
+  background: #d8d8d8;
+  height: 0px;
+  list-style-type: none;
+  overflow: hidden;
+  padding: 0px;
+  
+  /*Animation*/
+  -webkit-transition: height 1s ease;
+     -moz-transition: height 1s ease;
+       -o-transition: height 1s ease;
+      -ms-transition: height 1s ease;
+          transition: height 1s ease;
+}
+
+.menu-item2:hover ul.two {
+  height: 40px;
+}
+
+ 
+/*li Styles*/
+.menu-item2 li.two {
+  padding: 0px;
+}
+
+
+/*.menu-item2 li.two:hover {
+  background: #eee;
+}*/
+
+
+/* Top Menu Settings */
+ul.one {
+  font-family: "Verdana";
+  list-style-type: none;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 5%;
+  padding: 0;
+  overflow: hidden;
+}
+li.one {
+  font-family: "Verdana";
+  font-size: x-large;
+  display: block;
+  font-weight: bold;
+  color: white;
+  background-color: #096A37;
+  text-align: center;
+  padding: 0%;
+  text-decoration: none;
+  text-transform: uppercase;
+  float: left;
+  margin-top: 0;
+  margin-right: 0%;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+a.one:link, a.one:visited {
+  font-family: "Verdana";
+  font-size: x-large;
+  display: block;
+  width: 100%;
+  font-weight: bold;
+  color: #096A37;
+  background-color: #d8d8d8;
+  text-align: center;
+  padding: 0%;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+a.one:hover, a.one:active {
+  background-color: #8c8c8c;
+  color: #096A37;
+}
+
+/* Settings for Custom Environments */
+#container{
+margin-top:5%;margin-left:5%;margin-right:5%;margin-bottom:0;height:100%;
+}
+#header{
+margin-bottom:0;background-color:#096A37;width:100%;color:white;
+}
+#menu{
+margin-bottom:0;background-color:#096A37;width:100%;
+}
+#menu2{
+margin-bottom:0;background-color:#d8d8d8;width:100%;
+}
+#content{
+background-color:#d8d8d8;
+float:left;
+width:100%;
+border-bottom:thick;
+border-bottom-color:#d8d8d8;
+border-bottom-style:solid;
+}
