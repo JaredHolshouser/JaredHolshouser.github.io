@@ -1,100 +1,86 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
 
 <!-- This builds the label that you see in the tab for my webpage -->
 <head>
-<title>Jared Holshouser|Mathematics Graduate Student at the University of North Texas</title>
-<link rel="stylesheet" type="text/css" href="Styles.css"> <!-- Imports style features from CSS doc. -->
+<title>Jared Holshouser|Professor of Mathematics</title>
+<link rel="stylesheet" type="text/css" href="Styles.css"> <!-- Imports style features from CSS doc -->
 </head>
 <!-- End of tab -->
 
-<!-- This starts the content of the page. -->
+<!-- This starts the content of the page -->
 <body>
 
-<!-- This contains all of the actual content of the page. -->
-<div id="container">
+<!-- This first bit is all building the top bar of the webpage -->
+<header>
+  <!-- canvas is a picture environment -->
+  <canvas id="headPic">
+      Your browser does not support the HTML5 canvas tag.
+  </canvas>
+  <!-- Script to draw inside the canvas-->
+  <script src="Header.js"></script>
+</header>
 
-<!-- This first bit is all building the top bar of the webpage. The features for it are inherited from the css file. -->
-<!-- This part is the UNT seal and my name. CSS aspects used are header for background color and bar size and h1,h2 for text features. -->
-<div id="header">
-<br> <!-- Line break. -->
-<h1>>Jared Holshouser</h1>
-<h2>Professor of Mathematics</h2>
-<br>
-</div>
-<!-- End of Name -->
-
-<!-- This forms the buttons. CSS aspects used are menu for background color and size. -->
-<!-- ul,li class one are for horizontal placement and button color, and a class one is for hyperlink properties. -->
-<div id = "menu">
-<ul class = "one">
-  <li class = "one">&nbsp;</li><!-- &nbsp; adds white space -->
-  <li class = "one"><a class = "one" href = "index.html">&nbsp;About Me&nbsp;</a></li>
-  <li class = "one">&nbsp;</li>
-  <li class = "one"><a class = "one" href = "teaching.html">&nbsp;Teaching&nbsp;</a></li>
-  <li class = "one">&nbsp;</li>
-  <li class = "one"><a class = "one" href = "Research.html">&nbsp;Research&nbsp;</a></li>
-  <li class = "one">&nbsp;</li>
-</ul>
-<!-- End of buttons -->
-
-</div>
-<!-- This is the end of the construction of the top bar. -->
+<!-- This forms the navigation buttons. CSS aspects used are menu for background color and size -->
+<!-- ul,li class one are for horizontal placement and button color -->
+<nav>
+  <ul>
+    <li><a href="index.html">About Me</a></li>
+    <li><a href="teaching.html">Teaching</a></li>
+    <li><a href="Research.html">Research</a></li>
+  </ul>
+</nav>
+<!-- End of navigation buttons -->
   
-<!-- This builds the About Me portion. In the CSS file, content sets the background color and size. -->
-<!-- h1,h2, and p determine the text features. -->
-<div id="content">
-<h1>
-About Me
-<h2>
-<img src = "photo.jpg" width="150" height="225" style="float:left; margin-right:3%; margin-bottom:1%"><!-- Adds my photo. -->
-</h2>
-</h1>
-  
-<p>
-  I recieved my Bachelor's in Mathematics from the University of Texas in 2010. While there I focused on analysis and partial differential equations. I then recieved my Masters degree and PhD from the University of North Texas. My Masters project was to modernize the proof that the Axiom of Choice is independent from the Boolean Prime Ideal theorem. For my doctoral dissertation I studied infinite combinatorics under the axiom of determinacy, i.e. definable infinite combinatorics. I am currently working at the University of South Alabama as an assistant professor.
-</p>
+<!-- This contains the about me and the links -->
+<article>
+<!-- This builds the About Me portion -->
+  <h3>About Me</h3>
+  <section>
+    <p>
+      <img src="photo.jpg" width="150" height="225" style="float:left; padding-top: 5px; padding-bottom: 5px; padding-left: 0px; padding-right: 10px;" alt = "" /> I recieved my Bachelor's in Mathematics from the University of Texas in 2010. While there I focused on analysis and partial differential equations. I then recieved my Masters degree and PhD from the University of North Texas. My Masters project was to modernize the proof that the Axiom of Choice is independent from the Boolean Prime Ideal theorem. For my doctoral dissertation I studied infinite combinatorics under the axiom of determinacy, i.e. definable infinite combinatorics. I have worked at the Univeristy of South Alabama as an assistant professor since the fall semester  of 2017.
+    </p>
+    <p>
+      My training is in set theory, analysis and descriptive set theory. I am currently applying my understanding of those areas to problems in set theoretic topology. I am interested in understanding topologicayl properties through games and different kinds of strategies for those games. The framework of games can capture the size of a space, covering properties, density properties and can even be used to connect spaces to their corresponding function and hyperspaces.
+    </p>
 
-<p>
-  From a set theory standpoint I am not only interested in continuing to explore definable combinatorics, but in the relationship between definable and traditional infinite combinatorics, and what that can tell us about the relationship between universes of choice and universes of determinacy. Carried over from my undergraduate studies I am still interested by analysis and in particular in the applications of descriptive set theory to analysis. I have also explored non-standard, or Robinsonian, analysis.
-</p>
-
-<p>
-Outside of math, I attempt to be a bit of a cinephile, and I like to read about physics, evolutionary biology, and ancient languages. I also have a Research Blog. You can find my CV/resume here.
-</p>
-
-</div>
-<!-- End of About Me -->
+    <p>
+      While at the University of South Alabama I have collaborated with Dr. Steven Clontz on the <a href="https://mappmath.org/programs/challenge/" target="_blank">MaPP challenge</a> and other puzzle events. This is an annual day long puzzle hunt for high schoolers built by mathematicians across the country. The puzzles don't assume any advanced mathematical knowledge, but still showcase topics in higher math that are currently being researched. The MaPP challenge also includes a GPS scavenger hunt element.
+    </p>
+    <p>
+    Outside of math, I attempt to be a bit of a cinephile, and I like to read about physics, evolutionary biology, and ancient languages(and recently board games). I also have a <a href="http://jholshouserlst.blogspot.com/" target="_blank">Research Blog</a>. You can find my CV/resume <a href="Jared Holshouser CV.pdf" target="_blank">here</a>.
+    </p>
   
-<!-- This builds the links section. ul and li determine the verticality of the list and dots. a determines the hyperlink properties. -->
-<div id="content">
-<p>
-Here are some interesting math websites:
-<ul>
-<li><a href = "http://cantorsattic.info">Cantor's Attic</a> - A wiki for large cardinals</li>
-<li><a href = "http://www.pixelmonkeys.org">PIXEL mONkEYS</a> - A website for generating random finite colorings</li>
-<li><a href = "https://terrytao.wordpress.com/">Terry Tao's Blog</a> - A great blog by a great mathematician</li>
-<li><a href = "https://consistentreinhardtcardinal.wordpress.com/">Shehzad Ahmed's Blog</a> - Watch a graduate student explain Shelah in a way other graduate students can understand</li>
-<li><a href = "https://kamerynblog.wordpress.com/">Kameryn Williams' Blog</a> - Another graduate student blog and a peek at the brand of set theory happening at CUNY</li>
-</ul>
-</p>
-  
-<p>
-The crane's legs <br>
-have gotten shorter <br>
-in the spring rain <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Basho 
-</p>
-</div>
-<!-- End of links. -->
+<!-- This builds the links section. ul and li determine the verticality of the list and dots. a determines the hyperlink properties -->
+    <p>
+      Here are some interesting math websites:
+      <ul>
+        <li><a href="http://cantorsattic.info">Cantor's Attic</a> - A wiki for large cardinals</li>
+	<li><a href="https://topology.jdabbs.com/">Pi-Base</a> - A database of topological properties and topological spaces. A living version of Counter Examples in Topology.
+        <li><a href="http://www.pixelmonkeys.org">PIXEL mONkEYS</a> - A website for generating random finite colorings</li>
+        <li><a href="https://terrytao.wordpress.com/">Terry Tao's Blog</a> - A great blog by a great mathematician</li>
+        <li><a href="https://consistentreinhardtcardinal.wordpress.com/">Shehzad Ahmed's Blog</a> - Watch a graduate student explain Shelah in a way other graduate students can understand</li>
+        <li><a href="https://kamerynblog.wordpress.com/">Kameryn Williams' Blog</a> - Another graduate student blog and a peek at the brand of set theory happening at CUNY</li>
+      </ul>
+    </p>
+<!-- Fun quote spot -->
+    <p style="text-align:right;">
+      The crane's legs <br>
+      have gotten shorter <br>
+      in the spring rain <br>
+      -Basho 
+    </p>
+  </section>
+</article>
  
-<!-- This is just a small buffer so the text doesn't touch the bottom of the content box. --> 
-<div id="bottomborder"></div>
-
-</div>
-<!-- End of page content. -->
+<!-- This is the footer with contact info --> 
+<footer>
+  <h3>Contact Information</h3>
+  <p>
+    Email: <a href="mailto:JaredHolshouser@southalabama.edu?" target="_top">JaredHolshouser@southalabama.edu</a>
+  </p>
+</footer>
 
 </body>
-<!-- End of web page. -->
-
+<!-- End of web page -->
 </html>

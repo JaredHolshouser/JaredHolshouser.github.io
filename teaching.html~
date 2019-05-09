@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html>
+
+<!-- This builds the label that you see in the tab for my webpage -->
+<head>
+<title>Jared Holshouser|Professor of Mathematics</title>
+<link rel="stylesheet" type="text/css" href="Styles.css"> <!-- Imports style features from CSS doc -->
+</head>
+<!-- End of tab -->
+
+<!-- This starts the content of the page -->
+<body>
+
+<!-- This first bit is all building the top bar of the webpage -->
+<header>
+	<!-- canvas is a picture environment -->
+	<canvas id="headPic">
+			Your browser does not support the HTML5 canvas tag.
+	</canvas>
+	<!-- Script to draw inside the canvas-->
+	<script src="Header.js"></script>
+</header>
+
+<!-- This forms the navigation buttons. CSS aspects used are menu for background color and size -->
+<!-- ul,li class one are for horizontal placement and button color -->
+<nav>
+	<ul>
+		<li><a href="index.html">About Me</a></li>
+		<li><a href="teaching.html">Teaching</a></li>
+		<li><a href="Research.html">Research</a></li>
+	</ul>
+</nav>
+<!-- End of navigation buttons -->
+
+<!-- This contains the about me and the links -->
+<article>
+<!-- This builds the teaching information portion -->
+	<h3>Teaching</h3>
+	<section>
+		<h4>Fall 2017</h4>
+		<p>
+			I will be teaching at the University of South Alabama in the fall of 2017. More information will be here once the semester begins.
+		</p>
+		<p>
+			Here are some statistical websites I like:
+			<ul>
+			<li><a href="http://fivethirtyeight.com/">FiveThirtyEight</a> - Politics and sports news with real statistical analysis</li>
+			<li><a href="http://tylervigen.com/spurious-correlations">Spurious Correlations</a> - Fun examples showing that correlation does not equal causation</li>
+			<li><a href="http://graphtv.kevinformatics.com/">Graph TV</a> - Time plots of IMDB ratings of TV shows</li> 
+			</ul>
+		</p>
+		
+		<p>
+			Here is my <a href="Jared Holshouser Teaching Statement.pdf" target="_blank">teaching statement</a>.
+		</p>
+	</section>
+ </article>
+
+<!-- This is the footer with contact info --> 
+<footer>
+	<h3>Contact Information</h3>
+	<p>
+		Email: <a href="mailto:JaredHolshouser@my.unt.edu?" target="_top">JaredHolshouser@my.unt.edu</a>
+	</p>
+</footer>
+
+</body>
+<!-- End of web page -->
+</html>

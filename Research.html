@@ -1,217 +1,262 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-<head>
-<title>Jared Holshouser|Research</title>
-<link rel="stylesheet" type="text/css" href="Styles.css">
-</head>
 
+<!-- This builds the label that you see in the tab for my webpage -->
+<head>
+<title>Jared Holshouser|Professor of Mathematics</title>
+<link rel="stylesheet" type="text/css" href="Styles.css"> <!-- Imports style features from CSS doc -->
+</head>
+<!-- End of tab -->
+
+<!-- This starts the content of the page -->
 <body>
 
-<div id="container">
+<!-- This first bit is all building the top bar of the webpage -->
+<header>
+	<!-- canvas is a picture environment -->
+	<canvas id="headPic">
+			Your browser does not support the HTML5 canvas tag.
+	</canvas>
+	<!-- Script to draw inside the canvas-->
+	<script src="Header.js"></script>
+</header>
 
-<div id="header">
-<br>
-<h1><img src = "UNT-Seal-White.jpg" width = "146" height = "110" style="float:left; margin-right:1%; margin-bottom:1%">Jared Holshouser</h1>
-<h2>Mathematics Graduate Student</h2>
-<br>
-</div>
-
-<div id = "menu">
-<ul class = "one">
-  <li class = "one">&nbsp;</li>
-  <li class = "one"><a class = "one" href = "index.html">&nbsp;About Me&nbsp;</a></li>
-  <li class = "one">&nbsp;</li>
-  <li class = "one"><a class = "one" href = "teaching.html">&nbsp;Teaching&nbsp;</a></li>
-  <li class = "one">&nbsp;</li>
-  <li class = "one"><a class = "one" href = "Research.html">&nbsp;Research&nbsp;</a></li>
-  <li class = "one">&nbsp;</li>
-</ul>
-</div>
-
-<div id="content">
-
-<h1>Presentations</h1>
-
-<h3>2017 Joint Math Meetings </h3>
-<p><a href = "2017 JMM Presentation" target = "_blank"> Partition Properties for Non-Ordinal Sets Under the Axiom of Determinacy </a></p>
-<!-- Linking a pdf file. Setting the target to blank makes the pdf open in a new tab. -->
-  
-<h3>Ohio University Colloquium (November 2016)</h3>
-<p><a href = "2016 Ohio University Presentation" target = "_blank">Definable Combinatorics</a></p>
-  
-<h3>23rd BEST (San Diego)</h3>
-<p><a href = "2016 BEST Presentation" target = "_blank"> Partition Properties for Non-Ordinal Sets Under Determinacy</a></p>
-  
-<h3>Fifth NY Graduate Student Logic Conference (New York City)</h3>
-<p><a href = "2016 Graduate Students in Set Theory" target = "_blank"> Jonsson Properties for Non-Ordinal Sets Under Determinacy</a></p>
-  
-<h3>2016 AMS Spring Western Sectional Meeting (Salt Lake City)</h3>
-<p><a href = "2016 Spring AMS Sectional" target="_blank"> Jonsson Properties for Non-Ordinal Sets Under Determinacy</a></p>
-
-<h1>Presentations/Papers for UNT</h1>  
-
-<!-- Trying something new -->  
-
+<!-- This forms the navigation buttons. CSS aspects used are menu for background color and size -->
+<!-- ul,li class one are for horizontal placement and button color -->
 <nav>
-    <div class="menu-item">
-      <h4><a name = "Theses" href="Research.html#Theses">Research Theses</a></h4>
-      <ul>
-        <div class="menu-item2">
-        <h4><a name = "Master" class = "two" href="Research.html#Master">Master's Thesis</a></h4>
-          <ul class = "two">
-          <li><a href="AC and PIT.pdf">The Independence of the Axiom of Choice from the Ultrafilter Theorem</a></li>
-          </ul>
-        </div>
-      </ul>
-    </div>
-      
-    <div class="menu-item">
-      <h4><a name= "GLG" href="#Research.html#GLG">Graduate Logic Group </a></h4>
-      <nav>
-        <ul>
-          <li><a href="https://math.unt.edu/news/seminars/graduate-student-logic" target="_blank">Graduate Logic Group Seminar Page</a></li>
-          <div class="menu-item2">
-          <h4><a name = "GLGF2016" class = "two" href="Research.html#GLGF2016">Fall 2016</a></h4>
-            <ul class = "two">
-            <li class = "two">An Overview of Cardinal Arithmetic</li>
-            <li class = "two">Jonsson Cardinals in ZFC</li>
-            </ul>
-          </div>
-          <div class="menu-item2">
-          <h4><a name = "GLGS2016" class = "two" href="Research.html#GLGS2016">Spring 2016</a></h4>
-            <ul class = "two">
-            <li class = "two"><a href = "Reasonability of Omega 1.pdf" target = "_blank">The Weak Partition Property on &omega;<sub>1</sub></a></li>
-            </ul>
-          </div>
-          <div class="menu-item2">
-          <h4><a name = "GLGF2015" class = "two" href="Research.html#GLGF2015">Fall 2015</a></h4>
-            <ul class = "two">
-            <li class = "two">A Polarized Version of The Canonization Theorem</li>
-            </ul>
-          </div>
-          <div class="menu-item2">
-          <h4><a name = "GLGS2015" class = "two" href="Research.html#GLGS2015">Spring 2015</a></h4>
-            <ul class = "two">
-            <li class = "two">Los' Theorem Does Not Imply the Axiom of Choice</li>
-            </ul>
-          </div>
-          <div class="menu-item2">
-          <h4><a name = "GLGF2014" class = "two" href="Research.html#GLGF2014">Fall 2014</a></h4>
-            <ul class = "two">
-            <li class = "two">A Survey of Finiteness</li>
-            <li class = "two"><a href = "Characterizing First Order Logic.pdf" target="_blank">Lindstrom's Characterization of First Order Logic</a></li>
-            </ul>
-          </div>
-          <div class="menu-item2">
-          <h4><a name = "GLGS2014" class = "two" href="Research.html#GLGS2014">Spring 2014</a></h4>
-            <ul class = "two">
-            <li class = "two"><a href="Indepence of Stone's Theorem.pdf" target="_blank">The Independence of Stone's Theorem from ZF</a></li>
-            <li class = "two"><a href="Solovy's Inaccessible.pdf" target="_blank">Solovay's Inaccessible: The Cost of Measurability</a></li>
-            </ul>
-          </div>
-          <div class="menu-item2">
-          <h4><a name = "GLGF2013" class = "two" href="Research.html#GLGF2013">Fall 2013</a></h4>
-            <ul class = "two">
-            <li class = "two">The Banach-Tarski Paradox</li>
-            <li class = "two"><a href="Large Large Cardinals.pdf" target="_blank">Large Large Cardinals and Kunen's Inconsistency</a></li>
-            <li class = "two"><a href="Choice Grab Bag.pdf" target="_blank">Choice Grab Bag</a></li>
-            </ul>
-          </div>
-          <div class="menu-item2">
-          <h4><a name = "GLGSU2013" class = "two" href="Research.html#GLGSU2013">Summer 2013</a></h4>
-            <ul class = "two">
-            <li class = "two">The Pervasiveness of Choice</li>
-            </ul>
-          </div>
-          <div class="menu-item2">
-          <h4><a name = "GLGS2013" class = "two" href="Research.html#GLGS2013">Spring 2013</a></h4>
-            <ul class = "two">
-            <li class = "two"><a href="Non Standard Topology.pdf" target="_blank">An Introduction to Nonstandard Topology</a></li>
-            <li class = "two">Ramsey Sets and the Galvin-Prikry Theorem</li>
-            </ul>
-          </div>
-          <div class="menu-item2">
-          <h4><a name = "GLGF2012" class = "two" href="Research.html#GLGF2012">Fall 2012</a></h4>
-            <ul class = "two">
-            <li class = "two"><a href="Independence of Choice.pdf" target="_blank">A Proof of the Independence of the Axiom of Choice</a></li>
-            </ul>
-          </div>
-      </ul>
-      </nav>
-    </div>
-      
-    <div class="menu-item">
-      <h4><a name = "Dynamics" href="Research.html#Dynamics">Dynamics Seminar</a></h4>
-      <nav>
-      <ul>
-        <li><a href = "http://math.unt.edu/news/seminars/dynamical-systems" target="_blank">Dynamics Seminar Page</a></li>
-        <div class="menu-item2">
-        <h4><a name = "DynF2015" class = "two" href="Research.html#DynF2015">Fall 2015</a></h4>
-          <ul class = "two">
-          <li class = "two"><a href = "Mapping Onto the k-Cube.pdf" target = "_blank">Hausdorff Dimension of Metric Spaces and Lipschitz Maps Onto Cubes</a></li>
-          </ul>
-        </div>
-        <div class="menu-item2">
-        <h4><a name = "DynS2015" class = "two" href="Research.html#DynS2015">Spring 2015</a></h4>
-          <ul class = "two">
-          <li class = "two"><a href = "Non-Standard Analysis and Ergodic Theorems.pdf" target = "_blank">Non-Standard Analysis and Ergodic Theorems</a></li>
-          </ul>
-        </div>
-        <div class="menu-item2">
-        <h4><a name = "DynF2014" class = "two" href="Research.html#DynF2014">Fall 2014</a></h4>
-          <ul class = "two">
-          <li class = "two"><a href = "Lebesgue as Counting Measure.pdf" target = "_blank">Using Non-Standard Analysis to Realize Lebesgue Measure as a Counting Measure</a></li>
-          </ul>
-        </div>
-      </ul>
-      </nav>
-    </div>
-      
-    <div class="menu-item">
-      <h4><a name = "Algebra" href="Research.html#Algebra">Algebra Seminar</a></h4>
-      <ul>
-        <li><a href="https://math.unt.edu/news/seminars/algebra" target="_blank">Algebra Seminar Page</a></li>
-        <div class="menu-item2">
-        <h4><a name = "AlgF2016" class = "two" href="Research.html#AlgF2016">Fall 2016</a></h4>
-          <ul class = "two">
-          <li class = "two"><a href = "Set Theoretic Generalizations of Algebra.pdf" target = "_blank">The Jonsson Problem</a></li>
-          </ul>
-        </div>
-        <div class="menu-item2">
-        <h4><a name = "AlgF2013" class = "two" href="Research.html#AlgF2013">Fall 2013</a></h4>
-          <ul class = "two">
-          <li><a href="Whitehead's Problem.pdf" target = "_blank">Whitehead's Problem</a></li>
-          </ul>
-        </div>
-      </ul>
-    </div>
-  
-    <div class="menu-item">
-      <h4><a name = "RTG" href="Research.html#RTG">Logic and Dynamics Seminar</a></h4>
-      <ul>
-        <li><a href = "http://math.unt.edu/seminars/rtg-logic-and-dynamics-seminar" target="_blank">Logic and Dynamics Seminar Page</a></li>
-        <div class="menu-item2">
-        <h4><a name = "RTGF2017" class = "two" href="Research.html#RTGF2016">Spring 2017</a></h4>
-          <ul class = "two">
-          <li><a href = "History of Choice.pdf" target = "_blank">A Brief History of the Axiom of Choice</a></li>
-          </ul>
-        </div>
-        <div class="menu-item2">
-        <h4><a name = "RTGF2016" class = "two" href="Research.html#RTGF2016">Fall 2016</a></h4>
-          <ul class = "two">
-          <li><a href = "Generalizing Mycielski.pdf" target = "_blank">Generalizing Mycielski's Theorem</a></li>
-          </ul>
-        </div>
-      </ul>
-    </div>
+	<ul>
+		<li><a href="index.html">About Me</a></li>
+		<li><a href="teaching.html">Teaching</a></li>
+		<li><a href="Research.html">Research</a></li>
+	</ul>
 </nav>
+<!-- End of navigation buttons -->
 
-<div id="bottomborder"></div>
-<div id="bottomborder"></div>
-<div id="bottomborder"></div>
+<!-- This contains information about the presentations I have given and papers I have written -->
+<article>
+  <h3>Papers</h3>
+  <section>
+    <ul>
+      <li><a href="https://arxiv.org/abs/1806.06001" target="_blank">Limited Information Strategies and Discrete Selectivity</a></li>
+      <li><a href="https://arxiv.org/abs/1812.06379" target="_blank">Closed Discrete Selection in the Compact Open Topology</a></li>
+    </ul>
 
-</div>
+  </section>
+	<h3>Presentations</h3>
+	<section>
+	      <h4>Spring Topology and Dynamical Systems Conference 2019</h4>
+	      <p><a href="STDC_2019_Holshouser.pdf" target="_blank">Limited Information Strategies and Discrete Selectivity</a></p>
+	      
+	      <h4>University of South Alabama Pure Math Seminar Spring 2019</h4>
+	      <p><a href="Limited_information_strategies_and_discrete_selectivity.pdf" target="_blank">Limited Information Strategies and Discrete Selectivity</a></p>
+	      
+	      <h4>Centennary College Undergraduate Seminar Fall 2018</h4>
+	      <p><a href="Geometric Constructibility Through Origami.pdf" target="_blank">Geometric Constructibility Through Origami</a></p>
+	      
+	      <h4>Spring Topology and Dynamical Systems Conference 2018</h4>
+	      <p><a href="STDC_2018_Holshouser.pdf" target="blank">Calibrating the Size of Complicated Quotients</a></p>
+	      
+		<h4>2017 Joint Math Meetings </h4>
+		<p><a href="2017 JMM Presentation.pdf" target="_blank"> Partition Properties for Non-Ordinal Sets Under the Axiom of Determinacy </a></p>
+  
+		<h4>Ohio University Colloquium (November 2016)</h4>
+		<p><a href="2016 Ohio University Presentation.pdf" target="_blank">Definable Combinatorics</a></p>
+  
+		<h4>23rd BEST (San Diego)</h4>
+		<p><a href="2016 BEST Presentation.pdf" target= "_blank"> Partition Properties for Non-Ordinal Sets Under Determinacy</a></p>
+  
+		<h4>Fifth NY Graduate Student Logic Conference (New York City)</h4>
+		<p><a href="2016 Graduate Students in Set Theory.pdf" target="_blank"> Jonsson Properties for Non-Ordinal Sets Under Determinacy</a></p>
+  
+		<h4>2016 AMS Spring Western Sectional Meeting (Salt Lake City)</h4>
+		<p><a href="2016 Spring AMS Sectional.pdf" target="_blank"> Jonsson Properties for Non-Ordinal Sets Under Determinacy</a></p>
+	</section>
+
+	<h3>Presentations/Papers for the University of North Texas</h3>
+	<section class="UNTPres">
+		<!--  Buttons to navigate across the various seminars -->
+		<div style="margin-bottom:3px;">
+			<button class="button" id="b1" onclick="showDiss()">Research Theses</button>
+			<button class="button" id="b2" onclick="showGLG()">Graduate Logic Group</button>
+			<button class="button" id="b3" onclick="showDyn()">Dynamics Seminar</button>
+			<button class="button" id="b4" onclick="showAlg()">Algebra Seminar</button>
+			<button class="button" id="b5" onclick="showRTG()">RTG Seminar</button>
+		</div>
+		<!-- When the buttons are clicked, this div is populated by the corresponding function -->
+		<div id="dropdownLinks" style="border: 6px solid #1A4146; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); clear:both;">
+			<p>
+				Click one of the above buttons to see the corresponding papers/presentations.
+			</p>
+		</div>
+		
+		<script>
+		function showDiss() {
+			//Populating the links with Thesis pdfs
+			var div = document.getElementById("dropdownLinks");
+			div.innerHTML = "<ul>"
+			+ "<li><a href=\"Jared Dissertation with Blanks.pdf\" target=\"_blank\">PhD Thesis: Paritition Properties for Non-Ordinal Sets Under the Axiom of Determinacy</a></li>"
+			+ "<li><a href=\"AC and PIT.pdf\" target=\"_blank\">Masters Thesis: The Independence of the Axiom of Choice from the Ultrafilter Theorem</a></li>"
+			+ "</ul>";
+			
+			colorButtons(1);
+		}
+		
+		function showGLG() {
+			//Populating the links with GLG pdfs
+			var div = document.getElementById("dropdownLinks");
+			div.innerHTML = "<ul>"
+			+ "<li><a href=\"https://math.unt.edu/news/seminars/graduate-student-logic\" target=\"_blank\"><b>Graduate Logic Group Seminar Page</b></a></li>"
+			+ "<li><a href=\"\" target=\"_blank\">Fall 2016: An Overview of Cardinal Arithmetic(not yet uploaded)</a></li>"
+			+ "<li><a href=\"\" target=\"_blank\">Fall 2016: Jonsson Cardinals in ZFC(not yet uploaded)</a></li>"
+			+ "<li><a href=\"Reasonability of Omega 1.pdf\" target=\"_blank\">Spring 2016: The Weak Partition Property on &omega;<sub>1</sub></a></li>"
+			+ "<li><a href=\"\" target=\"_blank\">Fall 2015: A Polarized Version of The Canonization Theorem(not yet uploaded)</a></li>"
+			+ "<li><a href=\"\" target=\"_blank\">Spring 2015: Los' Theorem Does Not Imply the Axiom of Choice(not yet uploaded)</a></li>"
+			+ "<li><a href=\"\" target=\"_blank\">Fall 2014: A Survey of Finiteness(not yet uploaded)</a></li>"
+			+ "<li><a href=\"Characterizing First Order Logic.pdf\" target=\"_blank\">Fall 2014: Lindstrom's Characterization of First Order Logic</a></li>"
+			+ "<li><a href=\"Indepence of Stone's Theorem.pdf\" target=\"_blank\">Spring 2014: The Independence of Stone's Theorem from ZF</a></li>"
+			+ "<li><a href=\"Solovy's Inaccessible.pdf\" target=\"_blank\">Spring 2014:Solovay's Inaccessible: The Cost of Measurability</a></li>"
+			+ "<li><a href=\"\" target=\"_blank\">Fall 2013: The Banach-Tarski Paradox(not yet uploaded)</a></li>"
+			+ "<li><a href=\"Large Large Cardinals.pdf\" target=\"_blank\">Fall 2013: Large Large Cardinals and Kunen's Inconsistency</a></li>"
+			+ "<li><a href=\"Choice Grab Bag.pdf\" target=\"_blank\">Fall 2013: Choice Grab Bag</a></li>"
+			+ "<li><a href=\"\" target=\"_blank\">Summer 2013: The Pervasiveness of Choice(not yet uploaded)</a></li>"
+			+ "<li><a href=\"Non Standard Topology.pdf\" target=\"_blank\">Spring 2013: An Introduction to Nonstandard Topology</a></li>"
+			+ "<li><a href=\"\" target=\"_blank\">Spring 2013: Ramsey Sets and the Galvin-Prikry Theorem(not yet uploaded)</a></li>"
+			+ "<li><a href=\"Independence of Choice.pdf\" target=\"_blank\">Fall 2012: A Proof of the Independence of the Axiom of Choice</a></li>"
+			+ "</ul>";
+			
+			colorButtons(2);
+		}
+		
+		function showDyn() {
+			//Populating the links with Dynamics Seminar pdfs
+			var div = document.getElementById("dropdownLinks");
+			div.innerHTML = "<ul>"
+			+"<li><a href=\"http://math.unt.edu/news/seminars/dynamical-systems\" target=\"_blank\"><b>Dynamics Seminar Page</b></a></li>"
+			+"<li><a href=\"Mapping Onto the k-Cube.pdf\" target=\"_blank\">Fall 2015: Hausdorff Dimension of Metric Spaces and Lipschitz Maps Onto Cubes</a></li>"
+			+"<li><a href=\"Non-Standard Analysis and Ergodic Theorems.pdf\" target=\"_blank\">Spring 2015: Non-Standard Analysis and Ergodic Theorems</a></li>"
+			+"<li><a href=\"Lebesgue as Counting Measure.pdf\" target=\"_blank\">Fall 2014: Using Non-Standard Analysis to Realize Lebesgue Measure as a Counting Measure</a></li>"
+			+"</ul>";
+			
+			colorButtons(3);
+		}
+		
+		function showAlg() {
+			//Populating the links with Algebra Seminar pdfs
+			var div = document.getElementById("dropdownLinks");
+			div.innerHTML = "<ul>"
+			+"<li><a href=\"https://math.unt.edu/news/seminars/algebra\" target=\"_blank\"><b>Algebra Seminar Page</b></a></li>"
+			+"<li><a href=\"Set Theoretic Generalizations of Algebra.pdf\" target=\"_blank\">Fall 2016: The Jonsson Problem</a></li>"
+			+"<li><a href=\"Whitehead's Problem.pdf\" target=\"_blank\">Fall 2013: Whitehead's Problem</a></li>"
+			+"</ul>";
+			
+			colorButtons(4);
+		}
+		
+		function showRTG() {
+			//Populating the links with RTG seminar pdfs
+			var div = document.getElementById("dropdownLinks");
+			div.innerHTML = "<ul>"
+			+"<li><a href=\"http://math.unt.edu/seminars/rtg-logic-and-dynamics-seminar\" target=\"_blank\"><b>Logic and Dynamics Seminar Page</b></a></li>"
+			+"<li><a href=\"History of Choice.pdf\" target=\"_blank\">Spring 2017: A Brief History of the Axiom of Choice</a></li>"
+			+"</ul>";
+			
+			colorButtons(5);
+		}
+		//Recolors the buttons based on which one has been clicked
+		function colorButtons(index) {
+			//set variables for the buttons to change their color
+			var button1 = document.getElementById("b1");
+			var button2 = document.getElementById("b2");
+			var button3 = document.getElementById("b3");
+			var button4 = document.getElementById("b4");
+			var button5 = document.getElementById("b5");
+			
+			switch(index) {
+				case 1:
+					//make button 1 have a red background and white text
+					button1.style.backgroundColor = "#722E29";
+					button1.style.color = "white";
+					//reset the other buttons
+					button2.style.backgroundColor = "#1A4146";
+					button2.style.color = "AD986B";
+					button3.style.backgroundColor = "#1A4146";
+					button3.style.color = "AD986B";
+					button4.style.backgroundColor = "#1A4146";
+					button4.style.color = "AD986B";
+					button5.style.backgroundColor = "#1A4146";
+					button5.style.color = "AD986B";
+					break;
+				case 2:
+					//make button 2 have a red background and white text
+					button2.style.backgroundColor = "#722E29";
+					button2.style.color = "white";
+					//reset the other buttons
+					button1.style.backgroundColor = "#1A4146";
+					button1.style.color = "AD986B";
+					button3.style.backgroundColor = "#1A4146";
+					button3.style.color = "AD986B";
+					button4.style.backgroundColor = "#1A4146";
+					button4.style.color = "AD986B";
+					button5.style.backgroundColor = "#1A4146";
+					button5.style.color = "AD986B";
+					break;
+				case 3:
+					//make button 3 have a red background and white text
+					button3.style.backgroundColor = "#722E29";
+					button3.style.color = "white";
+					//reset the other buttons
+					button1.style.backgroundColor = "#1A4146";
+					button1.style.color = "AD986B";
+					button2.style.backgroundColor = "#1A4146";
+					button2.style.color = "AD986B";
+					button4.style.backgroundColor = "#1A4146";
+					button4.style.color = "AD986B";
+					button5.style.backgroundColor = "#1A4146";
+					button5.style.color = "AD986B";
+					break;
+				case 4:
+					//make button 4 have a red background and white text
+					button4.style.backgroundColor = "#722E29";
+					button4.style.color = "white";
+					//reset the other buttons
+					button1.style.backgroundColor = "#1A4146";
+					button1.style.color = "AD986B";
+					button2.style.backgroundColor = "#1A4146";
+					button2.style.color = "AD986B";
+					button3.style.backgroundColor = "#1A4146";
+					button4.style.color = "AD986B";
+					button5.style.backgroundColor = "#1A4146";
+					button5.style.color = "AD986B";
+					break;
+				case 5:
+					//make button 5 have a red background and white text
+					button5.style.backgroundColor = "#722E29";
+					button5.style.color = "white";
+					//reset the other buttons
+					button1.style.backgroundColor = "#1A4146";
+					button1.style.color = "AD986B";
+					button2.style.backgroundColor = "#1A4146";
+					button2.style.color = "AD986B";
+					button3.style.backgroundColor = "#1A4146";
+					button3.style.color = "AD986B";
+					button4.style.backgroundColor = "#1A4146";
+					button4.style.color = "AD986B";
+					break;
+			}
+		}
+		</script>
+</article>
+
+<!-- This is the footer with contact info --> 
+<footer>
+	<h3>
+		Contact Information
+	</h3>
+	<p>
+		Email: <a href="mailto:JaredHolshouser@southalabama.edu?" target="_top">JaredHolshouser@southalabama.edu</a>
+	</p>
+</footer>
 
 </body>
-
+<!-- End of web page -->
 </html>
