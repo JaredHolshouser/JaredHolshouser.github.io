@@ -53,7 +53,7 @@
 		ctx.fillText("Jared Holshouser", canvas.width/2, canvas.height/4);	
 		// Drawing my title
 		ctx.font = boxDim/2 + "px Arial";
-		ctx.fillText("Professor of Mathematics", canvas.width/2, 3*canvas.height/4);	
+		ctx.fillText("professor of Mathematics", canvas.width/2, 3*canvas.height/4);	
 		// Drawing the right triangle
 		for(y=0;y<4;y++){
 			for(x=0;x<4-y;x++){
