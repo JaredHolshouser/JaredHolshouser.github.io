@@ -100,9 +100,9 @@ nav li {
 }
 nav li a{
 	display: block;
-	color: #8E8D8A;
+	color: #000000;
 	text-align:center;
-	background-color: #EAE7DC;	
+	background-color: #E85A4F;	
 	text-decoration: none;
 }
 nav li a:visited {
@@ -271,9 +271,9 @@ nav li {
 }
 nav li a{
 	display: block;
-	color: #8E8D8A;
+	color: #000000;
 	text-align:center;
-	background-color: #E98074;	
+	background-color: #E85A4F;	
 	text-decoration: none;
 }
 nav li a:visited {
