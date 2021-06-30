@@ -160,7 +160,7 @@ footer {
 	width: 100%;
     background-color: #E85A4F;
     border: none;
-    color: #AD986B;
+    color: #000000;
     padding: 1% 2%;
 	margin-top: 1%;
 	margin-right: 0;
@@ -333,7 +333,7 @@ footer {
 	height: 80px;
     background-color: #E85A4F;
     border: none;
-    color: #AD986B;
+    color: #000000;
     text-align: center;
     text-decoration: none;
     display: inline-block;
