@@ -1,41 +1,9 @@
 /* Color Palette
-
-NEW COLORS
-
-Beige = #EAE7DC
-Tan = #D8C3A5
-Gray = #8E8D8A
-Pink = #E98074
-Red = #E85A4F
-
-OLD COLORS
-
-	Colors are light to dark
-*** Primary color (blue):
-
-   shade 0 = #42656A = rgb( 66,101,106) = rgba( 66,101,106,1) = rgb0(0.259,0.396,0.416)
-   shade 1 = #82979A = rgb(130,151,154) = rgba(130,151,154,1) = rgb0(0.51,0.592,0.604)
-   shade 2 = #5E7B7F = rgb( 94,123,127) = rgba( 94,123,127,1) = rgb0(0.369,0.482,0.498)
-   shade 3 = #2E5055 = rgb( 46, 80, 85) = rgba( 46, 80, 85,1) = rgb0(0.18,0.314,0.333)
-   shade 4 = #1A4146 = rgb( 26, 65, 70) = rgba( 26, 65, 70,1) = rgb0(0.102,0.255,0.275)
-
-*** Secondary color (1) (tan):
-
-   shade 0 = #AD986B = rgb(173,152,107) = rgba(173,152,107,1) = rgb0(0.678,0.596,0.42)
-   shade 1 = #FBEFD4 = rgb(251,239,212) = rgba(251,239,212,1) = rgb0(0.984,0.937,0.831)
-   shade 2 = #D0BE98 = rgb(208,190,152) = rgba(208,190,152,1) = rgb0(0.816,0.745,0.596)
-   shade 3 = #8A764A = rgb(138,118, 74) = rgba(138,118, 74,1) = rgb0(0.541,0.463,0.29)
-   shade 4 = #725B29 = rgb(114, 91, 41) = rgba(114, 91, 41,1) = rgb0(0.447,0.357,0.161)
-
-*** Secondary color (2) (red):
-
-   shade 0 = #AD706B = rgb(173,112,107) = rgba(173,112,107,1) = rgb0(0.678,0.439,0.42)
-   shade 1 = #FBD7D4 = rgb(251,215,212) = rgba(251,215,212,1) = rgb0(0.984,0.843,0.831)
-   shade 2 = #D09C98 = rgb(208,156,152) = rgba(208,156,152,1) = rgb0(0.816,0.612,0.596)
-   shade 3 = #8A4E4A = rgb(138, 78, 74) = rgba(138, 78, 74,1) = rgb0(0.541,0.306,0.29)
-   shade 4 = #722E29 = rgb(114, 46, 41) = rgba(114, 46, 41,1) = rgb0(0.447,0.18,0.161)
-
-*/
+:root {
+	--white:  #ffffff;
+	--grey: #e8e8e0;
+	--black: #000000;
+}
 
 /*Mobile Settings*/
 /* Settings for the built in environments */
@@ -45,18 +13,18 @@ html {
 
 /* This sets the background image that the other objects float over */
 body {
-	background-color: #EAE7DC
+	background-color: var(--grey);
 }
 
 /* Header settings */
 header {
-	background-color: #D8C3A5;
+	background-color: var(--white);
 	font-size: x-large;
 	font-weight: bold;
 	padding-top: 6px;
 	padding-right: 6px;
 	padding-left: 6px;
-	border: 6px solid #8E8D8A;
+	border: 6px solid var(--black);
 	margin-top: 6px;
 	margin-right: 6px;
 	margin-bottom: 0px;
