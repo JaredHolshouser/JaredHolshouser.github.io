@@ -6,7 +6,7 @@
 	var ctx = canvas.getContext("2d");		
 				
 	// The colors for the squares
-	var colors = new Array("#6A558C","#E85A4F","#8E8D8A");
+	var colors = new Array("#8E8D8A","#05525C","#FFC145");
 		
 	// Setting the colors randomly
 	var leftTriangle = new Array(4);
