@@ -173,6 +173,10 @@ a:visited {
 	color: #551a8b;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 /*Desktop Settings*/
 @media only screen and (orientation:landscape) {
 /* Settings for the built in environments */
@@ -343,5 +347,9 @@ a {
 
 a:visited {
 	color: #551a8b;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 }
