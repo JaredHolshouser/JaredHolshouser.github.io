@@ -2,7 +2,7 @@
 :root {
 	--white: #ffffff;
 	--grey: #e8e8e0;
-	--black: #1e90ff;
+	--black: #000000;
 }
 
 /*Mobile Settings*/
@@ -13,18 +13,18 @@ html {
 
 /* This sets the background image that the other objects float over */
 body {
-	background-color: var(--grey);
+	background-color: #e8e8e0;
 }
 
 /* Header settings */
 header {
-	background-color: var(--white);
+	background-color: #ffffff;
 	font-size: x-large;
 	font-weight: bold;
 	padding-top: 6px;
 	padding-right: 6px;
 	padding-left: 6px;
-	border: 6px solid var(--black);
+	border: 6px solid #000000;
 	margin-top: 6px;
 	margin-right: 6px;
 	margin-bottom: 0px;
@@ -34,7 +34,7 @@ header {
 /* Navigation menu settings */
 nav {
 	display: flex;
-	background-color:var(--grey);
+	background-color:#e8e8e0;
 	color: #1A4146;
 	text-align: center;
 	font-size: 135%;
@@ -42,9 +42,9 @@ nav {
 	text-transform: uppercase;
 	padding: 0;
 	border-top: 0px;
-	border-right: 6px var(--black);
-	border-bottom: 6px var(--black);
-	border-left: 6px var(--black);
+	border-right: 6px #000000;
+	border-bottom: 6px #000000;
+	border-left: 6px #000000;
 	margin-top: 0px;
 	margin-right: 6px;
 	margin-bottom: 0px;
@@ -70,7 +70,7 @@ nav li a{
 	display: block;
 	color: #000000;
 	text-align:center;
-	background-color: var(--white);	
+	background-color: #ffffff;	
 	text-decoration: none;
 	border-radius: 25px;
 }
@@ -78,22 +78,22 @@ nav li a:visited {
 	
 }
 nav li a:hover {
-	background-color: var(--black); 
-	color: var(--white);	
+	background-color: #000000; 
+	color: #ffffff;	
 }
 nav li a:active {
-	background-color: var(--black); 
-	color: var(--white);	
+	background-color: #000000; 
+	color: #ffffff;	
 }
 
 /* Article settings */
 article {
-	background-color:var(--white);
+	background-color:#ffffff;
 	padding: 6px;
-	border-top: 0px solid var(--black);
-	border-right: 6px solid var(--black);
-	border-bottom: 6px solid var(--black);
-	border-left: 6px solid var(--black);
+	border-top: 0px solid #000000;
+	border-right: 6px solid #000000;
+	border-bottom: 6px solid #000000;
+	border-left: 6px solid #000000;
 	margin-top: 0px;
 	margin-right: 6px;
 	margin-bottom: 0px;
@@ -112,12 +112,12 @@ section {
 
 /* Footer settings */
 footer {
-	background-color: var(--white);
+	background-color: #ffffff;
 	padding: 6px;
 	border-top: 0;
-	border-right: 6px solid var(--black);
-	border-bottom: 6px solid var(--black);
-	border-left: 6px solid var(--black);
+	border-right: 6px solid #000000;
+	border-bottom: 6px solid #000000;
+	border-left: 6px solid #000000;
 	margin-top: 0px;
 	margin-right: 6px;
 	margin-bottom: 6px;
@@ -182,19 +182,19 @@ html {
 
 /* This sets the background image that the other objects float over */
 body {
-	background-color: var(--grey);
+	background-color: #e8e8e0;
 	min-width:600px;
 }
 
 /* Header settings */
 header {
-	background-color: var(--white);
+	background-color: #ffffff;
 	font-size: x-large;
 	font-weight: bold;
 	padding-top: 6px;
 	padding-right: 6px;
 	padding-left: 6px;
-	border: 6px solid var(--black);
+	border: 6px solid #000000;
 	margin-top: 6px;
 	margin-right: 6px;
 	margin-bottom: 0px;
@@ -204,16 +204,16 @@ header {
 /* Navigation menu settings */
 nav {
 	display: flex;
-	background-color: var(--grey);
+	background-color: #e8e8e0;
 	color: #1A4146;
 	text-align: center;
 	font-size: 135%;
 	font-weight: bold;
 	text-transform: uppercase;
 	border-top: 0px;
-	border-right: 6px solid var(--black);
-	border-bottom: 6px solid var(--black);
-	border-left: 6px solid var(--black);
+	border-right: 6px solid #000000;
+	border-bottom: 6px solid #000000;
+	border-left: 6px solid #000000;
 	margin-top: 0px;
 	margin-right: 6px;
 	margin-bottom: 0px;
@@ -241,9 +241,9 @@ nav li {
 }
 nav li a{
 	display: block;
-	color: var(--black);
+	color: #000000;
 	text-align:center;
-	background-color: var(--white);	
+	background-color: #ffffff;	
 	text-decoration: none;
 	border-radius: 25px;
 }
@@ -251,22 +251,22 @@ nav li a:visited {
 	
 }
 nav li a:hover {
-	background-color: var(--black); 
-	color: var(--white);	
+	background-color: #000000; 
+	color: #ffffff;	
 }
 nav li a:active {
-	background-color: var(--black); 
-	color: var(--white);	
+	background-color: #000000; 
+	color: #ffffff;	
 }
 
 /* Article settings */
 article {
-	background-color: var(--white);
+	background-color: #ffffff;
 	padding: 6px;
-	border-top: 0px solid var(--black);
-	border-right: 6px solid var(--black);
-	border-bottom: 6px solid var(--black);
-	border-left: 6px solid var(--black);
+	border-top: 0px solid #000000;
+	border-right: 6px solid #000000;
+	border-bottom: 6px solid #000000;
+	border-left: 6px solid #000000;
 	margin-top: 0px;
 	margin-right: 6px;
 	margin-bottom: 0px;
@@ -285,12 +285,12 @@ section {
 
 /* Footer settings */
 footer {
-	background-color:var(--white);
+	background-color:#ffffff;
 	padding: 6px;
 	border-top: 0;
-	border-right: 6px solid var(--black);
-	border-bottom: 6px solid var(--black);
-	border-left: 6px solid var(--black);
+	border-right: 6px solid #000000;
+	border-bottom: 6px solid #000000;
+	border-left: 6px solid #000000;
 	margin-top: 0px;
 	margin-right: 6px;
 	margin-bottom: 6px;
