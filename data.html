@@ -44,9 +44,9 @@
 		The goal of this project was to help the faculty at Norwich University create informed decisions about the future of the school, with a particular focus on budget matters. Using the Integrated Postsecondary Education Data System (<a href="https://nces.ed.gov/ipeds/use-the-data" target="_blank">IPEDS</a>), I collected information on core revenue and expenses from 2006 to 2022 and on staffing from 2012 to 2022. I also used data from the American Association of University Professors to analyze tenure status from 2002 to 2022. The data from these sources is already mostly clean, so I only had to clean up names and perform some pivots. I then used the tidyverse package to create the visuals and compute some extra columns such as the discount rate. Some of my key observations are that the discount rate when from 27% in 2008 to 59% in 2022 and that the number of part-time faculty has grown from 72 in 2002 to 239 in 2022 while the number of full-time tenure track and tenured faculty numbers have remained relatively constant. Below you will find a summary and full report of the data, a dictionary outlining the specific meanings of the categories, and a repository of the files I used for the analysis.
 	</p>
 	<ul>
-		<li><p><a href="Norwich IPEDS Summary.pbix" target="_blank">High Level Summary</a></p></li>
-		<li><p><a href="Norwich IPEDS Data.pdf" target="_blank">Full Presentation</a></p></li>
-		<li><p><a href="Norwich IPEDS Data Dictionary" target="_blank">Data dictionary</a></p></li>
+		<li><a href="Norwich IPEDS Summary.pbix" target="_blank">High Level Summary</a></li>
+		<li><a href="Norwich IPEDS Data.pdf" target="_blank">Full Presentation</a></li>
+		<li><a href="Norwich IPEDS Data Dictionary" target="_blank">Data dictionary</a></li>
 		<li><a href = "https://github.com/JaredHolshouser/NorwichIPEDS" target=\"_blank\">Github repository for the data and the R files</a></li>
 	</ul>
 	
@@ -55,8 +55,8 @@
 		In analyzing the best original score category for the Oscars, I hoped to challenge myself with a particularly unclean data set while learning more about two of my interests: movies and music. I scraped the data from the <a href = "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Original_Score", target="_blank">wikipedia page</a>. On that page the nominees and winners are stored in separate tables by decade, values span across multiple rows and columns, category names are intermixed with film names, the nominees are listed in the same cell, separated by commas and the word "and," and the winners are merely highlighted in the tables. In addition to this the category name changed over a dozen times over the years and there is a many-many relationship between years and category names. There is also a many-many relationship between films and nominees. Using power query, I organized this data into one table with columns for year, award show number, film name, category, whether or not it won, and the nominee name. I then used the organized data to show the films and nominees, find the nominees with the most nominations and the most wins, and highlight how the categories have changed over time. I made sure to use slicers and drill-through effectively. The results clearly showed that John Williams was an outlier and that the Newman family was exceptional. Acting on this, I made separate pages dedicated to John Williams and the Newman family. To understand the Newman family I imported the hierarchy chart visual, wrote a table summarizing the family tree and joined it with the table of films. Below you will find a pdf sample of the power BI report as well as the power BI file itself. I do not have the correct license to share a web version of the interactive dashboard, otherwise I would.
 	</p>
 	<ul>
-		<li><p><a href="Best Score Oscars.pdf" target="_blank">PDF Sample</a></p></li>
-		<li><p><a href="Best Score Oscars.pbix" target="_blank">PBIX FILE</a></p></li>
+		<li><a href="Best Score Oscars.pdf" target="_blank">PDF Sample</a></li>
+		<li><a href="Best Score Oscars.pbix" target="_blank">PBIX FILE</a></li>
 	</ul>
 
 	<h3>Medical Spending of the US Elderly (Updated for 2021)</h3>
@@ -64,7 +64,7 @@
 		In 2016, De Nardi, French, Jones, and McCauley analyzed medical spending of the US elderly (a href = "https://onlinelibrary.wiley.com/doi/10.1111/j.1475-5890.2016.12106" target=\"_blank\">link here</a>). They used the Medicare current beneficiary survey (a href = "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey" target=\"_blank\">MCBS</a>). I used this paper and the MCBS as on opportunity to learn about processing medical information. In the 2016 paper they found that when looking from 1996 to 2010, a higher percentage of women's health care is paid by Medicaid, and a higher percentage of women's health care costs come from nursing homes. I pulled the MCBS data from the most recent year (2021) to see if these trends had changed. The MCBS data is weighted, so they recommend using the survey package for R to process it. I followed their instructions along with the definitions in their legend and recreated the tables from the 2016 paper with the data from 2021. One major limitation is that for 2021 the MCBS excluded information on people who had spent time in nursing homes from the publicly available data set. Still, I was able to detect some interesting new trends in increased medicine expenses and decreased hospital expenses. Below you will find my report as well as a repository of the files I used for my analysis.
 	</p>
 	<ul>
-		<li><p><a href="ASD Presentation" target="_blank">Presentation</a></p></li>
+		<li><a href="ASD Presentation" target="_blank">Presentation</a></li>
 		<li><a href = "https://github.com/JaredHolshouser/MedicalSpendingUSElderly" target=\"_blank\">Github repository for the data and the R files</a></li>
 	</ul>
 	
